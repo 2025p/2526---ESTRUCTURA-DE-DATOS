@@ -1,0 +1,12 @@
+#programa que almacena los siguientes precios, 45, 85, 46, 20, 95, 65, 6, y muestra solo el menor y el mayor de los precios.
+
+prices = [45, 85, 46, 20, 95, 65, 6]
+min = max = prices[0]
+for price in prices:
+    if price < min:
+        min = price
+    elif price > max:
+        max = price 
+print("El mínimo es " + str(min)) 
+print("El máximo es " + str(max))
+
